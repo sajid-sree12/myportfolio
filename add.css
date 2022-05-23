@@ -1,0 +1,464 @@
+body {
+    background: linear-gradient(60deg, rgba(245, 245, 244, 0), rgba(4, 187, 253, 0), rgba(15, 210, 41, 0)), url("back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+}
+
+.dp {
+    border-radius: 100px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(255, 255, 255);
+    font-size: 1.08rem;
+    color: rgb(21, 255, 0);
+    border-radius: 2px;
+    text-shadow: 2px 2px 5px black;
+    background-color: rgba(0, 0, 0, 0.43);
+}
+
+.dp:hover {
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+h1:hover {
+    color: rgb(255, 68, 0);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.navbar .navbar-nav .nav-item .nav-link svg {
+    color: rgb(255, 255, 255);
+}
+
+.navbar .navbar-nav .nav-item .nav-link svg:hover {
+    color: rgb(45, 15, 238);
+    box-shadow: 2px 2px 5px;
+    background-color: white;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    border-color: white;
+    border-radius: 3px;
+    font-weight: 300px;
+    margin-top: 5%;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 68, 0);
+    border: 0px;
+    box-shadow: 0px 0px 6px black;
+    border-color: rgba(9, 7, 7, 0.74);
+    border-radius: 5px;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.navbar .navbar-nav .nav-item {
+    border-radius: 10px;
+}
+
+.card-img-top {
+    mix-blend-mode: exclusion;
+    border-radius: 10px;
+}
+
+h4 {
+    color: white;
+    font-size: small;
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-title {
+    font-size: large;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.card-body {
+    background: transparent;
+}
+
+.navbar-nav {
+    background-color: rgb(164, 52, 4);
+    border-radius: 5px;
+}
+
+.cd {
+    margin-top: 8%;
+}
+
+.div1 {
+    margin-top: 20%;
+}
+
+.card-title {
+    font-size: xx-small;
+    color: orangered;
+    text-shadow: 0px 0px 10px black;
+}
+
+h4 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h6 {
+    font-size: x-small;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+p {
+    font-size: xx-small;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px black;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 10%;
+    color: orangered;
+    text-shadow: 0px 0px 10px black;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-shadow: none;
+    text-align: center;
+}
+
+.category .job ul li {
+    text-align: left;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #8d8b8b;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px 10px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+    color: black;
+    border-bottom: 3px solid red;
+}
+
+.topnav .active {
+    color: black;
+    border-bottom: 3px solid red;
+}
+
+#set {
+    margin-top: 0px;
+    margin-left: 17%;
+    padding: 50px;
+    background: transparent;
+    border: none;
+}
+
+#job {
+    margin-top: 20%;
+    margin-left: 12%;
+}
+
+.category .job {
+    background: linear-gradient(135deg, #E3E3E3 0%, #5D6874 100%);
+    height: 202px;
+    width: 200px;
+    border: 1px solid transparent;
+    padding: 30px 19px 25px 19px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.category .job:hover {
+    border: 2px solid rgb(0, 204, 255);
+    width: 210px;
+    height: 205px;
+}
+
+.category .job span {
+    padding: 6px 20px;
+    font-weight: 400;
+    border-radius: 26px;
+    display: inline-block;
+}
+
+.category .job .colors1 {
+    font-weight: 800;
+    color: #ed0e0e;
+    background: #ef1f1f42;
+}
+
+.category .job .colors2 {
+    font-weight: 800;
+    color: #4294F2;
+    background: rgba(66, 148, 255, 0.26);
+}
+
+.category .job .colors3 {
+    font-weight: 800;
+    color: #2EB98D;
+    background: rgba(46, 185, 141, 0.03);
+}
+
+.category .job .colors4 {
+    font-weight: 800;
+    color: #6A42F2;
+    background: rgba(106, 66, 242, 0.07);
+}
+
+.category .job .colors5 {
+    font-weight: 800;
+    color: #F162BC;
+    background: rgba(241, 98, 188, 0.07);
+}
+
+.category .job .colors2 {
+    font-weight: 800;
+    color: #4294F2;
+    background: rgba(66, 148, 255, 0.26);
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #071112;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+    display: block;
+}
+
+.place {
+    font-size: 12px;
+    padding-left: 0px;
+    color: #000000;
+    text-align: center;
+}
+
+dt {
+    text-align: center;
+}
+
+.left {
+    font-weight: 800;
+}
+
+.category .job span.time {
+    font-weight: 900;
+}
+
+.btn.btn-primary {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.imgs {
+    mix-blend-mode: difference;
+    border-radius: 100%;
+}
+
+.aboutus-section {
+    padding: 90px 0;
+}
+
+.aboutus-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.aboutus-title::after {
+    background: #fdb801 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+
+.aboutus-text {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 0 0 35px;
+}
+
+a:hover,
+a:active {
+    color: #ffb901;
+    text-decoration: none;
+    outline: 0;
+}
+
+.aboutus-more {
+    border: 1px solid #fdb801;
+    border-radius: 25px;
+    color: #fdb801;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+
+.feature .feature-box .iconset {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    position: relative;
+    width: 18%;
+}
+
+.feature .feature-box .iconset::after {
+    background: #fdb801 none repeat scroll 0 0;
+    content: "";
+    height: 150%;
+    left: 43%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+.feature .feature-box .feature-content {
+    float: left;
+    padding-left: 28px;
+    width: 78%;
+}
+
+.feature .feature-box .feature-content h4 {
+    color: #0f0f0f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 0 5px;
+}
+
+.feature .feature-box .feature-content p {
+    color: #606060;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.icon {
+    color: #f4b841;
+    padding: 0px;
+    font-size: 40px;
+    border: 1px solid #fdb801;
+    border-radius: 100px;
+    color: #fdb801;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+
+.image-aboutus-para {
+    color: white;
+    font-size: small;
+    text-align: justify;
+    font-weight: lighter;
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 20px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    margin: 0px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 0px 0px 15px black;
+}
+
+.container .category .job h5 a {
+    margin: 0px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#smallbtns {
+    margin: 20px;
+}
+
+#sclass {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background: white;
+}
+
+.container .card .card-body .sbtn p a {
+    color: rgb(0, 0, 0);
+}
+
+.container .card .card-body .sbtn p a:hover {
+    color: orangered;
+}
